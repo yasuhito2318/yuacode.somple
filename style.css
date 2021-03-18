@@ -62,6 +62,10 @@ header .head-center {
   margin-left: 137px;
 }
 
+.fa {
+  display: none;
+}
+
 header .head-center a {
   font-weight: bold;
   line-height: 94px;
