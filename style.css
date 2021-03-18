@@ -84,6 +84,10 @@ header .menu {
   display: none;
 }
 
+.menu-wrapper {
+  height: 0px;
+}
+
 .responsive-none {
   display: none;
 }
