@@ -56,6 +56,9 @@
     height: 94px;
     line-height: 94px;
   }
+  .fa {
+    display: block; 
+  }
   header .head-right {
     display: none;
   }
