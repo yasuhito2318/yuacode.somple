@@ -1,4 +1,7 @@
 @media (max-width: 767px) {
+  .wrap {
+        overflow: hidden;
+    }
   .container {
     width: 100vw;
   }
