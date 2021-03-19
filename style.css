@@ -466,6 +466,7 @@ header .menu {
 }
 
 .contact-container {
+  position:relative;
   height: 780px;
   width: 908px;
   margin: 0 auto;
@@ -529,6 +530,14 @@ form textarea {
 .contact-center input {
   margin-top: 30px;
   cursor: pointer;
+}
+
+.end-message {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    display: none;
+    text-align: center;
 }
 
 footer {
