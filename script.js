@@ -20,7 +20,7 @@ $(function(){
         }else{
             $('body, html').animate({ scrollTop: $('.features-wrapper').offset().top-94 }, 500);
         }
-        if (window.matchMedia( '(max-width: 767px)' ).matches) {
+        if (window.matchMedia( '(max-width: 768px)' ).matches) {
             $('.menu-wrapper').removeClass('open');
             $('.menu-wrapper').animate({'right':-$('.menu-wrapper').outerWidth()},300);
         }
@@ -33,7 +33,7 @@ $(function(){
         }else{
             $('body, html').animate({ scrollTop: $('.price-wrapper').offset().top-94 }, 500);
         }
-        if (window.matchMedia( '(max-width: 767px)' ).matches) {
+        if (window.matchMedia( '(max-width: 768px)' ).matches) {
             $('.menu-wrapper').removeClass('open');
             $('.menu-wrapper').animate({'right':-$('.menu-wrapper').outerWidth()},300);
         }
@@ -46,7 +46,7 @@ $(function(){
         }else{
             $('body, html').animate({ scrollTop: $('.contact-wrapper').offset().top-94 }, 500);
         }
-        if (window.matchMedia( '(max-width: 767px)' ).matches) {
+        if (window.matchMedia( '(max-width: 768px)' ).matches) {
             $('.menu-wrapper').removeClass('open');
             $('.menu-wrapper').animate({'right':-$('.menu-wrapper').outerWidth()},300);
         }
@@ -123,7 +123,7 @@ var mySwiper = new Swiper ('.swiper-container', {
         delay:5000
     },
     breakpoints : {
-        767:{
+        769:{
             slidesPerView: 3.5
         }
     }
